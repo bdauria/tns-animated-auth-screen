@@ -1,0 +1,16 @@
+<GridLayout 
+    [gradientBackground]="['#7319b1', '#13b3f0']" 
+    class="container" 
+    rows="*, auto">
+  <GridLayout row="0">
+    <StackLayout #loginWrapper>
+      <login></login>
+    </StackLayout>
+    <StackLayout #registerWrapper>
+      <register></register>
+    </StackLayout>
+  </GridLayout>
+  <StackLayout (tap)="toggleScreen()" class="footer" row="1">
+    <Label #footerLabel class="footer-text" [text]="footerText"></Label>
+  </StackLayout>
+</GridLayout>

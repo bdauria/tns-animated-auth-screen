@@ -1,0 +1,14 @@
+.vscode/
+npm-debug.log
+
+app/**/*.css
+app/**/*.js
+app/**/*.js.map
+!app/tns-java-classes.js
+!app/components/shared/ss-list-view/ss-list-view-delegate.ios.js
+hooks/
+lib/
+node_modules/
+platforms/
+tmp/
+typings/

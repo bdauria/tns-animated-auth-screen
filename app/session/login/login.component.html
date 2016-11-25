@@ -1,0 +1,13 @@
+<StackLayout>
+  <StackLayout class="form-container">
+    <Label class="fa session-icon" [text]="'fa-sign-in' | fonticon"></Label> 
+    <TextField hint="Login" [hintColor]="'#FFFFFF'"></TextField>
+    <TextField hint="Password" [hintColor]="'#FFFFFF'"></TextField>
+    <Button text="Login"></Button>
+  </StackLayout>
+    <Label class="caption" text="Or Login with:"></Label>
+    <StackLayout class="social-buttons-container" orientation="horizontal">
+      <Label class="fa social-icon" [text]="'fa-facebook-square' | fonticon"></Label> 
+      <Label class="fa social-icon" [text]="'fa-twitter-square' | fonticon"></Label> 
+    </StackLayout>
+</StackLayout>

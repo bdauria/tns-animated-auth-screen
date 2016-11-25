@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "experimentalDecorators": true,
+    "lib": [
+      "es2016"
+    ]
+  },
+  "include": [
+    "typings-i386/*",
+    "Interop.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "platforms"
+  ]
+}
